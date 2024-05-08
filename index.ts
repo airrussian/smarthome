@@ -7,7 +7,6 @@ import { TemperatureCapability as _TemperatureCapability } from "./Capability/Te
 import { CapabilityDescription as _CapabilityDescription } from "./Capability/Types/CapabilityDescription";
 import { RangeObject as _RangeObject } from "./Capability/Types/Range";
 import { CapabilityState as _CapabilityState } from "./Capability/Types/CapabilityState";
-import { FactoryCapability as _FactoryCapability } from "../forExperiments/expDescRest/Devices/DataView/FactoryCapability";
 
 import { Property as _Property } from "./Properties/Property";
 import { PropertyState as _PropertyState } from "./Properties/Types/PropertyState";
@@ -29,8 +28,6 @@ export namespace SmartHome {
     export type TemperatureCapability = _TemperatureCapability;
     export type PauseCapability = _PauseCapability;
     export type RangeObject = _RangeObject;
-
-    export const FactoryCapability = _FactoryCapability;
 
     export const Capability = _Capability;
     export const HeatCapability = _HeatCapability;
