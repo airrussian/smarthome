@@ -1,0 +1,10 @@
+{
+  "name": "smarthome",
+  "version": "0.5.1",
+  "description": "Description classes for smart home",
+  "main": "index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "Alexey Voronenko",
+  "license": "ISC"
+}
