@@ -1,0 +1,38 @@
+import { Capability as _Capability } from "./Capability/Capability";
+import { HeatCapability as _HeatCapability } from "./Capability/HeatCapability";
+import { PauseCapability as _PauseCapability } from "./Capability/PauseCapability";
+import { OnOffCapability as _OnOffCapability } from "./Capability/OnOffCapability";
+import { TemperatureCapability as _TemperatureCapability } from "./Capability/TemperatureCapability";
+import { CapabilityDescription as _CapabilityDescription } from "./Capability/Types/CapabilityDescription";
+import { RangeObject as _RangeObject } from "./Capability/Types/Range";
+import { CapabilityState as _CapabilityState } from "./Capability/Types/CapabilityState";
+import { Property as _Property } from "./Properties/Property";
+import { PropertyState as _PropertyState } from "./Properties/Types/PropertyState";
+import { PropertyDescription as _PropertyDescription } from "./Properties/Types/PropertyDescription";
+import { PressureProperty as _PressureProperty } from "./Properties/PressureProperty";
+import { TemperatureProperty as _TemperatureProperty } from "./Properties/TemperatureProperty";
+import { Device as _Device } from "./Device";
+export declare namespace SmartHome {
+    type Device = _Device;
+    type Capability = _Capability;
+    type CapabilityDescription = _CapabilityDescription;
+    type CapabilityState = _CapabilityState;
+    type HeatCapability = _HeatCapability;
+    type OnOffCapability = _OnOffCapability;
+    type TemperatureCapability = _TemperatureCapability;
+    type PauseCapability = _PauseCapability;
+    type RangeObject = _RangeObject;
+    const Capability: typeof _Capability;
+    const HeatCapability: typeof _HeatCapability;
+    const OnOffCapability: typeof _OnOffCapability;
+    const TemperatureCapability: typeof _TemperatureCapability;
+    const PauseCapability: typeof _PauseCapability;
+    type Property = _Property;
+    type PropertyState = _PropertyState;
+    type PropertyDescription = _PropertyDescription;
+    type PressureProperty = _PressureProperty;
+    type TemperatureProperty = _TemperatureProperty;
+    const Property: typeof _Property;
+    const PressureProperty: typeof _PressureProperty;
+    const TemperatureProperty: typeof _TemperatureProperty;
+}

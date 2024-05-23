@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SmartHome = void 0;
+const Capability_1 = require("./Capability/Capability");
+const HeatCapability_1 = require("./Capability/HeatCapability");
+const PauseCapability_1 = require("./Capability/PauseCapability");
+const OnOffCapability_1 = require("./Capability/OnOffCapability");
+const TemperatureCapability_1 = require("./Capability/TemperatureCapability");
+const Property_1 = require("./Properties/Property");
+const PressureProperty_1 = require("./Properties/PressureProperty");
+const TemperatureProperty_1 = require("./Properties/TemperatureProperty");
+var SmartHome;
+(function (SmartHome) {
+    SmartHome.Capability = Capability_1.Capability;
+    SmartHome.HeatCapability = HeatCapability_1.HeatCapability;
+    SmartHome.OnOffCapability = OnOffCapability_1.OnOffCapability;
+    SmartHome.TemperatureCapability = TemperatureCapability_1.TemperatureCapability;
+    SmartHome.PauseCapability = PauseCapability_1.PauseCapability;
+    SmartHome.Property = Property_1.Property;
+    SmartHome.PressureProperty = PressureProperty_1.PressureProperty;
+    SmartHome.TemperatureProperty = TemperatureProperty_1.TemperatureProperty;
+})(SmartHome || (exports.SmartHome = SmartHome = {}));

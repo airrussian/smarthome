@@ -1,8 +1,10 @@
 {
   "name": "smarthome",
-  "version": "0.5.1",
+  "version": "0.5.5",
   "description": "Description classes for smart home",
-  "main": "index.ts",
+  "module": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {},
   "keywords": [],
   "author": "Alexey Voronenko",
