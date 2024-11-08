@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.HeatCapability = void 0;
 const ModeCapability_1 = require("./ModeCapability");
 class HeatCapability extends ModeCapability_1.ModeCapability {
-    constructor(parameters) {
-        parameters = {
+    constructor(modes) {
+        const parameters = {
             instance: HeatCapability.instance,
-            modes: parameters?.modes
+            modes: modes
         };
         super(parameters, true);
     }

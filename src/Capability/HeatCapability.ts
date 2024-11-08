@@ -1,16 +1,15 @@
-import { CapabilityModeParameters } from "./Types/CapabilityModeParameters";
-import { Capability } from "./Capability";
+import { CapabilityModeParametersObject } from "./Types/CapabilityModeParameters";
 import { ModeCapability } from "./ModeCapability";
 
 export class HeatCapability extends ModeCapability {
 
     static readonly instance = "heat";
 
-    constructor( parameters: CapabilityModeParameters ) {      
+    constructor( modes: CapabilityModeParametersObject[] ) {      
         
-        parameters = {
+        const parameters = {
             instance: HeatCapability.instance, 
-            modes: parameters?.modes
+            modes: modes
         }
        
         super(parameters, true);              

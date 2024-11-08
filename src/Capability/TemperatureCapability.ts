@@ -1,5 +1,3 @@
-import { AttributeParameters } from "../AttributeParameters";
-import { Capability } from "./Capability";
 import { RangeCapability } from "./RangeCapability";
 import { CapabilityRangeParameters } from "./Types/CapabilityRangeParameters";
 import { RangeObject } from "./Types/Range";

@@ -3,6 +3,7 @@ import { HeatCapability as _HeatCapability } from "./Capability/HeatCapability";
 import { PauseCapability as _PauseCapability } from "./Capability/PauseCapability";
 import { OnOffCapability as _OnOffCapability } from "./Capability/OnOffCapability";
 import { TemperatureCapability as _TemperatureCapability } from "./Capability/TemperatureCapability";
+import { CapabilityModeParameters as _CapabilityModeParameters, CapabilityModeParametersObject as _CapabilityModeParametersObject } from "./Capability/Types/CapabilityModeParameters";
 import { CapabilityDescription as _CapabilityDescription } from "./Capability/Types/CapabilityDescription";
 import { RangeObject as _RangeObject } from "./Capability/Types/Range";
 import { CapabilityState as _CapabilityState } from "./Capability/Types/CapabilityState";
@@ -22,6 +23,8 @@ export declare namespace SmartHome {
     type TemperatureCapability = _TemperatureCapability;
     type PauseCapability = _PauseCapability;
     type RangeObject = _RangeObject;
+    type CapabilityModeParameters = _CapabilityModeParameters;
+    type CapabilityModeParametersObject = _CapabilityModeParametersObject;
     const Capability: typeof _Capability;
     const HeatCapability: typeof _HeatCapability;
     const OnOffCapability: typeof _OnOffCapability;
